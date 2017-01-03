@@ -1,0 +1,275 @@
+
+html
+{
+	padding:5%;
+	background:#daede2;
+ }
+ *{
+ 	margin: 0px;
+ }
+ #css-zen-garden{
+ 	background:#77c4d3; 
+ }
+ @media only screen and (min-width: 800px)
+ {
+#css-zen-garden
+{
+	min-width: 800px;	
+	font-family:"tablet-gothic", verdana, arial, sans-serif;
+	box-sizing: border-box;
+	
+    }
+}
+
+.page-wrapper
+{
+z-index:2;
+position: relative;
+box-sizing: border-box;
+}
+
+h1 {
+    background: #ea2e49;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+h2{
+    font-size: 120px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 150px;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    padding: 0px;
+}
+
+.intro
+{
+width: 62.5%;
+padding: 5%;
+position: relative;
+box-sizing: border-box;
+}
+
+.summary{
+color: white;
+width: 650px;
+margin: 10px;
+padding: 15% 0;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+.summary a{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none
+}
+.summary p:first-child {
+    padding-bottom: 25px;
+    border-bottom: 1px solid red;
+}
+ .summary > p {
+    padding: 15px 0;
+}
+
+
+.extra1{
+background:rgba(51,55,69,0.9);
+position:fixed;
+width:30%;
+top:0;
+right:0;bottom:0;
+
+ }
+.sidebar{
+ top:2.5%;
+ right:0;
+ position:absolute;
+ padding:5%;
+width:23%;
+ background-color: rgba(246,247,146,0.9);
+ font-family:  'Tinos', serif;
+ font-size: 20px;
+  }
+
+  .select{
+    font-family: 'Tinos', serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0px;
+}
+.archives{
+font-family: 'Tinos', serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0px;
+}
+.resources{
+	font-family: 'Tinos', serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0px;
+}
+li{
+	list-style-type: none;
+    padding-bottom: 0px;
+    margin: 17px;
+    margin-left: -33px;
+}
+.sidebar a
+{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #333;
+    text-decoration: none
+
+}
+ a:hover{
+	border-bottom: 1px solid red;
+}
+
+ .preamble{
+ background:rgba(255,255,255,0.9);
+ width:100%;
+ left:-25%;
+ padding: 5% 5% 5% 25%;
+   color: #2E2626;
+ position:relative;
+ font-family:  'Tinos', serif;
+ line-height: 20px;
+ font-weight: 200;
+ font-size: 20px;
+  }
+  .preamble > p {
+    padding: 15px 0;
+}
+  .preamble h3{
+  	font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+    padding: 7px 0 8px 0;
+  }
+  .explanation{
+  width:35%;
+  padding:80px;
+  margin: 20px;
+  float:left;
+  color:white;
+  font-size: 20px;
+  font-family:'Tinos', serif; 
+   }
+   .explanation > p {
+   
+   padding: 15px 0;
+}
+   .explanation h3{
+   	font-weight: 400;
+   	font-size: 38px;
+   }
+  .participation{  
+  width:35%;
+  padding:80px 40px 60px 40px;
+  
+  float:left;
+  background:rgba(234,46,73,0.9);
+    color:white;
+    font-family:'Tinos', serif;
+    font-size: 20px;
+  } 
+  .participation > p {
+   
+    padding: 15px 0;
+}  
+  .participation a{
+  	    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color:white;
+    text-decoration: none
+  }
+ .participation a:hover{
+	border-bottom: 1px solid white;
+}
+  .participation h3{
+  	font-size: 38px;
+  	font-weight: 400;
+  }
+  .benefits{
+  float:left;
+  width:20%;
+  padding:5%;
+  margin-left:5%;
+  margin-top:10%;
+  background-color:#fff; 
+  font-family: 'Tinos', serif;
+  font-size: 20px;
+      color: #2E2626;
+
+}  
+.benefits h3{
+	font-size: 38px;
+  	font-weight: 400;
+}
+  .requirements{
+   float:left;
+  width:48%;
+  padding:5%;
+  background: rgba(255,255,255,0.9);
+  background:#fff; 
+   font-family: 'Tinos', serif;
+  font-size: 20px;
+      color: #2E2626;
+
+}
+.requirements > p {
+    
+    padding:15px 0;
+}
+.requirements a{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+    color:#2E2626;
+    text-decoration: none
+}
+.requirements a:hover{
+	border-bottom: 1px solid red;
+}
+  .requirements h3{
+  	font-size: 38px;
+  	font-weight: 400;
+  }
+  .requirements p:last-child
+   {
+    border-top: 1px solid red;
+    line-height: 25px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    color:#333;
+}
+
+  footer{
+  padding:2%;
+  padding-left: 60px;
+  background:rgba(246,247,146,0.9);
+  margin-bottom:8%;
+  margin-left:5%;
+  display:inline-block; 
+  width:40%; 
+  font-weight: 400;
+  font-family:  'Tinos', serif;
+  font-size: 20px;
+   }
+
+footer a{
+border-bottom: 1px solid rgba(0,0,0,0.2);
+    color:#2E2626;
+    text-decoration: none
+
+    }
